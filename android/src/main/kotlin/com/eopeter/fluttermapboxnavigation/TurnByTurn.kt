@@ -247,7 +247,7 @@ open class TurnByTurn(
             }
         }
 
-        this.mapStyleUrlDay = arguments["mapStyleUrlDay"] as? String
+        this.mapStyleUrlDay = arguments["mapStyleUrlNight"] as? String
         this.mapStyleUrlNight = arguments["mapStyleUrlNight"] as? String
 
         this.initialLatitude = arguments["initialLatitude"] as? Double
